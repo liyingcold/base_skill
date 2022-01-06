@@ -1,7 +1,6 @@
 import java.util.concurrent.locks.StampedLock;
 
 public class StempedLockDemo {
-
     private double x=0.2;
     private double y=0.2;
     private  StampedLock sl = new StampedLock();

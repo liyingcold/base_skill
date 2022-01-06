@@ -4,6 +4,7 @@ import java.util.Vector;
 import java.util.concurrent.*;
 
 public class CountDownLatchAndCyclicBarrier{
+
     // 订单队列
     private Vector<Map<String,Integer>> pos;
     // 派送单队列

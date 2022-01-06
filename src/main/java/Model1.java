@@ -4,7 +4,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Model1 {
-
     private class BlockedQueue<T>{
         final Lock lock =new ReentrantLock();
         // 条件变量：队列不满
